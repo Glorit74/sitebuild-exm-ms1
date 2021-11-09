@@ -40,3 +40,50 @@ button, input, textarea, select {
     -webkit-appearance: none !important;
     border-radius: 0
 }
+
+section {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+
+.sec1 {
+    background-color: white;
+}
+
+.sec2 {
+    background-color: gray;
+}
+
+button {
+    position: absolute;
+}
+
+.btn1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    background-color: gray;
+}
+
+.btn2, 
+.btn3 {
+    width: 200px;
+    height: 60px;
+}
+
+.btn2 {
+    bottom: 40px;
+    right: 40px;
+    background-color: #9dd355;
+}
+
+.btn3 {
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: white;
+}
