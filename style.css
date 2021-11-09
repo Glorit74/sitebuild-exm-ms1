@@ -67,17 +67,17 @@ button {
     width: 200px;
     height: 200px;
     border-radius: 100px;
-    background-color: gray;
+    background-color: rgb(201, 183, 23);
 }
 
 .btn2, 
 .btn3 {
     width: 200px;
     height: 60px;
+    bottom: 40px;
 }
 
 .btn2 {
-    bottom: 40px;
     right: 40px;
     background-color: #9dd355;
 }
